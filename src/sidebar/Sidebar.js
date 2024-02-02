@@ -4,13 +4,13 @@ import Price from "./Price";
 import Color from "./Color";
 import "./Sidebar.css";
 
-function Sidebar(){
+function Sidebar(props){
     return(
     <>
     <section className="sidebar">
-        <Categories/>
-        <Price/>
-        <Color/>
+        <Categories handleFilter = {props.handleFilter}/>
+        {/* <Price/>
+        <Color/> */}
     </section>
     </>)
 }
