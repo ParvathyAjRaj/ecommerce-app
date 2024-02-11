@@ -20,3 +20,10 @@ code {
   padding:2%;
   
 }
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

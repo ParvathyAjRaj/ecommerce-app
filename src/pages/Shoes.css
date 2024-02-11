@@ -10,9 +10,13 @@
     }
 
     .img{
-        width:100%;
+        width:30%;
+    }  
+}
+
+@media (max-width:800px){
+    .img{
+        width:50%;
     }
-    
-    
 }
 
